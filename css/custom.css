@@ -1,5 +1,68 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+  background: #EEEDED;
+}
+
+a{
+	color: #00A493;
+}
+
+a:hover{
+	color: #00A493;
+}
+
+.navbar-brand img{
+	margin-top: -5px;
+}
+
+.navbar-brand *{
+	color: white;
+}
+
+.jumbotron{
+	height: 200px;
+	overflow: hidden;
+}
+
+.jumbotron #details{
+	position: absolute;
+	color: white;
+}
+
+.jumbotron #details span{
+	color: #00A493;
+}
+
+.jumbotron img{
+	width: 100%;
+}
+
+section .widgets{
+	margin-bottom: 20px;
+}
+.popular img{
+	width: 100%;
+	margin-top: 10px;
+}
+.popular{
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.popular .details{
+	margin-left: -20px;
+}
+
+.popular .details p{
+	font-size: 11px;
+}
+
+footer {
+	background: black;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	letter-spacing: 1px;
 }

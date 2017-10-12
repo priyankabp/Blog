@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Thought Closet</title>
 
     <!-- Bootstrap -->
     <!-- TODO : Add logo of the website -->
     <link rel="icon" type="image/png" href="images/favicon.png"> 
+    <!-- Using interactive icons from font awesome--> 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!-- Using fonts from google -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Using custom css for styling-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Using animation for the text-->
+    <link rel="stylesheet" href="css/animated.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +40,7 @@
           </button>
           <a class="navbar-brand" href="index.html">
             <div class="col-xs-2"><img src="images/favicon.png" alt="Logo" width="25px"></div>
-            <div class="col-xs-10">My Thought Closet</div>
+            <div class="col-xs-10">Thought Closet</div>
           </a>
         </div>
 
@@ -65,26 +72,76 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
+    <div class="jumbotron">
+      <div class="container">
+        <div id="details" class="animated fadeInLeft">
+          <h1>Thought Closet <span>Blog</span></h1>
+          <p>This is an online personel blog.So, put your thoughts in closet</p>
+        </div>
+      </div>
+      <img src="images/top-image.jpg" alt="Top Image">
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">Posts</div>
+          <div class="col-md-4">
+            <div class="widgets">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+              </div><!-- /input-group -->
+            </div><!-- widgets closed -->
+
+            <div class="widgets">
+              <div class="popular">
+                <h4> Popular Posts</h4>
+                <hr>
+                <div class="row">
+                  <div class="col-xs-4">
+                    <img src="images/slider-img1.jpg" alt="Image 1">
+                  </div>
+                  <div class="col-xs-8 details">
+                    <h4>This is heading for post</h4>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 January, 2017</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <img src="images/slider-img1.jpg" alt="Image 1">
+                  </div>
+                  <div class="col-xs-8 details">
+                    <h4>This is heading for post</h4>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 January, 2017</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-4">
+                    <img src="images/slider-img1.jpg" alt="Image 1">
+                  </div>
+                  <div class="col-xs-8 details">
+                    <h4>This is heading for post</h4>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 January, 2017</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- widgets closed -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        Copyright &copy; by <a href="https://www.linkedin.com/in/priyankaphapale/"> Priyanka Phapale</a>
+        All Rights Reserved from 2017 - 2027
+      </div>
+    </footer>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
