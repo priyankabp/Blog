@@ -105,6 +105,46 @@ section .widgets{
 	width: 100%;
 	margin-top: -25px;
 }
+
+.post .description{
+	font-family: arial;
+	font-weight: 100;
+	padding: 20px;
+	line-height: 20px;
+}
+
+.post > a.btn{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: #00A894;
+}
+
+.post .bottom{
+	padding: 10px 20px;
+	border-top: 1px solid #E3E3E3;
+}
+
+.post .bottom{
+	color: #C6C6C6;
+}
+
+.post .bottom .category{
+	margin-right: 20px;
+}
+
+.post .bottom .comment{
+	margin-left: 20px;
+}
+
+nav#pagination{
+	text-align: center;
+}
+
+.pagination >li > a{
+	color: #00A894;
+	padding: 15px 20px;
+	font-size: 18px;
+}
 footer {
 	background: black;
 	height: 50px;
