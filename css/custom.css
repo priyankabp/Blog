@@ -71,7 +71,7 @@ section .widgets{
 }
 
 .post .post-date{
-	padding-left: 20px;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -84,7 +84,27 @@ section .widgets{
 	font-weight: 100;
 }
 
+.post .post-title {
+	padding: 5px 20px 20px 20px;
+	border-left: 1px solid #E3E3E3; 
+}
+.post .post-title span{
+	color: #00A894;
+	font-weight: 100;
+}
 
+.post .profile-picture{
+	padding: 20px;
+}
+
+.post .profile-picture img{
+	width: 80%;
+}
+
+.post > a > img{
+	width: 100%;
+	margin-top: -25px;
+}
 footer {
 	background: black;
 	height: 50px;
