@@ -48,7 +48,8 @@ section .widgets{
 .popular{
 	background: white;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
+	border: 1px solid #E3E3E3;
 }
 
 .popular .details{
@@ -57,6 +58,10 @@ section .widgets{
 
 .popular .details p{
 	font-size: 11px;
+}
+
+.popular ul li{
+	list-style: none;
 }
 
 footer {
