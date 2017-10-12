@@ -157,6 +157,18 @@ footer {
 	background: white;
 	padding: 35px 25px;
 }
+
+.contact-us-form h2{
+	color: #00A894;
+}
+
+.contact-us-form textarea{
+	resize: none;
+}
+.contact-us-form > a.btn{
+	background-color: #00A894;
+}
+
 @media(max-width: 992px){
 
 	.post .profile-picture{
