@@ -203,31 +203,42 @@ footer {
 	font-weight: 100;
 }
 
-.comment{
+.comments{
 	background: white;
 	padding: 20px;
 	margin-bottom: 15px;
 }
 
-.comment h3{
+.comments h3{
 	color: #00A894;
 }
 
-.comment img{
+.comments img{
 	width: 80%;
 }
 
-.comment h4{
+.comments h4{
 	color: #00A894;
 }
 
-.comment p{
+.comments p{
 	font-weight: 100;
 }
 
-.comment .single-comment{
+.comments .single-comment{
 	margin-bottom: 10px;
 }
+
+.comment-box{
+	margin-bottom: 15px;
+	background: white;
+	padding: 20px;
+}
+
+.comment-box textarea{
+	resize: none;
+}
+
 
 @media(max-width: 992px){
 
