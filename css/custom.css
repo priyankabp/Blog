@@ -165,8 +165,68 @@ footer {
 .contact-us-form textarea{
 	resize: none;
 }
+
 .contact-us-form > a.btn{
 	background-color: #00A894;
+}
+
+.related-posts{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.related-posts img{
+	width: 100%;
+}
+
+.related-posts h3{
+	color: #00A894;
+}
+
+.author{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.author img{
+	width: 100%;
+}
+
+.author h4{
+	color: #00A894;
+	text-decoration: underline;
+}
+
+.author p{
+	font-weight: 100;
+}
+
+.comment{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.comment h3{
+	color: #00A894;
+}
+
+.comment img{
+	width: 80%;
+}
+
+.comment h4{
+	color: #00A894;
+}
+
+.comment p{
+	font-weight: 100;
+}
+
+.comment .single-comment{
+	margin-bottom: 10px;
 }
 
 @media(max-width: 992px){
@@ -218,6 +278,53 @@ footer {
 	}
 
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+		text-align: center;
+	}
+
+	.author{
+		background: white;
+		padding: 20px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.author img{
+		width: 30%;
+	}
+
+	.author h4{
+		color: #00A894;
+		text-decoration: underline;
+	}
+
+	.author p{
+		font-weight: 100;
+	}
+
+	.comment{
+		background: white;
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+
+	.comment h3{
+		color: #00A894;
+	}
+
+	.comment img{
+		width: 30%;
+	}
+
+	.comment h4{
+		color: #00A894;
+	}
+
+	.comment p{
+		font-weight: 100;
+	}
+
+	.comment .single-comment{
+		margin-bottom: 10px;
 		text-align: center;
 	}
 }
